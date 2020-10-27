@@ -11,6 +11,11 @@ env:
   global:
     - app_id=pvr.dvbviewer
 
+addons:
+  apt:
+    packages:
+    - kodi-addons-dev
+
 matrix:
   include:
     - os: linux
